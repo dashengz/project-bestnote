@@ -1,0 +1,89 @@
+<resources>
+
+    <string name="app_name">BestNote</string>
+
+    <string name="title_activity_main_page">Main Page</string>
+
+    <string name="title_section1">Main Page</string>
+    <string name="title_section2">Profile</string>
+    <string name="title_section3">About</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_back">View Notes</string>
+    <string name="action_save">Save</string>
+    <string name="action_camera">Picture Note</string>
+    <string name="action_new">Create</string>
+    <string name="action_discard">Delete</string>
+    <string name="action_share">Share</string>
+    <string name="intro">Notes and Translations\nClick on Note to edit!</string>
+    <string name="introLand">Notes/Translations! Click to edit!</string>
+    <string name="camera">Gallery of Memories</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_text_notes">Text Notes</string>
+
+    <string name="about">Texts stored in the Cloud\nPics stored Locally\nHave fun using BestNote</string>
+    <string name="title_activity_edit_create">Create Notes</string>
+    <string name="title_activity_picture_note">Picture Notes</string>
+    <string name="title_activity_note_detail">Note Detail</string>
+    <string name="title_activity_edit_existing">Edit Existing Note</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Detail</string>
+
+    <string name="returnToView">Returning to View Mode</string>
+    <string name="savedAddNew">Saved successfully! Continue adding new notes?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="updateContinue">Updated successfully! Continue editing this note?</string>
+    <string name="backToNote">Back to the Note</string>
+    <string name="welcome">Welcome to BestNote!</string>
+    <string name="greetings">Greetings to you, </string>
+    <string name="goAndCreate">! Go on and create your first note!</string>
+    <string name="signUpSuccess">Signed up Successfully! Login Now?</string>
+    <string name="logInSuccess">Logged In Successfully :)</string>
+    <string name="viewText">Viewing Text Notes</string>
+    <string name="viewPicture">Viewing Picture Notes</string>
+    <string name="cameraFirst">You\'ve created your first Picture Note! Click the Camera Button again to view all pictures!</string>
+    <string name="cancelled">User cancelled</string>
+    <string name="failed">Capture failed</string>
+    <string name="logOut">Are you sure you want to log out?</string>
+    <string name="deleteOrNot">Are you sure you want to DELETE this note?</string>
+    <string name="backToList">Back to List</string>
+    <string name="returnToMain">Returning to Main Page</string>
+    <string name="imageSavedTo">Image saved to:\n</string>
+    <string name="viewNotesNav">View Notes</string>
+    <string name="editNoteToast">Share, edit or delete this notes :)</string>
+    <string name="limited">Please Connect to the Internet first to enable more functions</string>
+    <string name="enterCreate">Entering Create Mode</string>
+    <string name="timeZoneChanged">Time-zone Changed!</string>
+    <string name="goToApp">On a trip? Use BestNote to record events!</string>
+
+    <string name="title">Title:</string>
+    <string name="titleHint">Title of Your Note</string>
+    <string name="noteHint">Jog down your ideas here :D</string>
+    <string name="titleChangeHint">Change Your Title Here</string>
+    <string name="noteChangeHint">Change your ideas here :D</string>
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="showPass">Show Password</string>
+    <string name="signUpBtn">Sign Up</string>
+    <string name="logInBtn">Log In</string>
+    <string name="titleShow">Title</string>
+    <string name="timeShow">Time</string>
+    <string name="contentShow">Note Content</string>
+    <string name="textNote">Text Notes</string>
+    <string name="picNote">Picture Notes</string>
+    <string name="niceDay">Have A Nice Day</string>
+
+    <string name="inAppShare">In-App Share</string>
+    <string name="otherApp">Via Other Apps</string>
+    <string name="shareWith">Share With Whom?</string>
+    <string name="share">Share</string>
+
+    <string name="title_activity_in_app_share">In-App Share</string>
+
+</resources>

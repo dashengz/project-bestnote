@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/build/intermediates/pre-dexed/debug/classes-2be6840756968018fe4b8da3edcf8957627df894.jar" />
+    </item>
+    <item
+        jar="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/libs/Parse-1.9.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1b065010f3c9d441ede9078aca8eabcd1c81e647">
+        <dex dex="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/build/intermediates/pre-dexed/debug/Parse-1.9.1-a5b002a56c1335239cda62e8ac9896d85f200129.jar" />
+    </item>
+    <item
+        jar="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-27f9cc2e4922d169c8796a4336cf6d0af627a8f6.jar" />
+    </item>
+    <item
+        jar="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/build/intermediates/pre-dexed/debug/classes-dbceda0f985dfc102babbade6bc107d0ddced8d2.jar" />
+    </item>
+    <item
+        jar="/Users/Jonathan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-1fda24b29e868eebb9fe462ecb56ee38637d454f.jar" />
+    </item>
+    <item
+        jar="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/Jonathan/AndroidStudioProjects/Project-BestNote/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-6d54cbe31893ca7f94d01af1d272e9b94e63f999.jar" />
+    </item>
+
+</items>

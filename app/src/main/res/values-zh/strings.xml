@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="app_name">最佳笔记</string>
+
+    <string name="title_activity_main_page">主页</string>
+
+    <string name="title_section1">主页</string>
+    <string name="title_section2">个人信息</string>
+    <string name="title_section3">关于</string>
+
+    <string name="action_search">查找</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_back">查看笔记</string>
+    <string name="action_save">保存</string>
+    <string name="action_camera">照片笔记</string>
+    <string name="action_new">创建</string>
+    <string name="action_discard">删除</string>
+    <string name="action_share">分享</string>
+    <string name="intro">查看笔记或翻译\n点击笔记进行编辑</string>
+    <string name="introLand">查看笔记或翻译；点击笔记进行编辑</string>
+
+    <string name="camera">记忆回廊</string>
+
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="title_activity_text_notes">文字笔记</string>
+
+    <string name="about">文字笔记存在云端\n照片存在手机端\n欢迎使用最佳笔记</string>
+    <string name="title_activity_edit_create">创建新笔记</string>
+    <string name="title_activity_picture_note">照片笔记</string>
+    <string name="title_activity_note_detail">笔记详情</string>
+    <string name="title_activity_edit_existing">编辑已有笔记</string>
+
+    <string name="action_settings">设置</string>
+
+    <string name="returnToView">回到浏览模式</string>
+    <string name="savedAddNew">保存成功！继续添加？</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="updateContinue">成功更新！继续编辑？</string>
+    <string name="backToNote">回到笔记</string>
+    <string name="welcome">欢迎使用最佳笔记！</string>
+    <string name="greetings">你好，</string>
+    <string name="goAndCreate">！创建你的第一个笔记吧！</string>
+    <string name="signUpSuccess">注册成功！是否直接登陆？</string>
+    <string name="logInSuccess">登陆成功！</string>
+    <string name="viewText">浏览文字笔记</string>
+    <string name="viewPicture">浏览照片笔记</string>
+    <string name="cameraFirst">成功创建第一张图片笔记！再次点击相机进入浏览模式！</string>
+    <string name="cancelled">用户取消</string>
+    <string name="failed">捕捉失败</string>
+    <string name="logOut">确定注销用户？</string>
+    <string name="deleteOrNot">您是否确定删除该笔记？</string>
+    <string name="backToList">回到列表</string>
+    <string name="returnToMain">回到主页</string>
+    <string name="imageSavedTo">图片保存到：\n</string>
+    <string name="viewNotesNav">浏览笔记</string>
+    <string name="editNoteToast">分享、编辑或删除笔记</string>
+    <string name="limited">请连接互联网之后重试</string>
+    <string name="enterCreate">进入创建模式</string>
+    <string name="timeZoneChanged">时区改变了哟!</string>
+    <string name="goToApp">旅行着呢？用最佳笔记记录随感吧！</string>
+
+    <string name="title">标题</string>
+    <string name="titleHint">笔记的标题</string>
+    <string name="noteHint">把想法记在这里吧！</string>
+    <string name="titleChangeHint">在这儿更改标题</string>
+    <string name="noteChangeHint">在这人更改笔记内容</string>
+    <string name="usernameHint">用户名</string>
+    <string name="passwordHint">密码</string>
+    <string name="showPass">显示密码</string>
+    <string name="signUpBtn">注册</string>
+    <string name="logInBtn">登陆</string>
+    <string name="titleShow">标题</string>
+    <string name="timeShow">时间</string>
+    <string name="contentShow">笔记内容</string>
+    <string name="textNote">文字笔记</string>
+    <string name="picNote">照片笔记</string>
+    <string name="niceDay">祝您天天愉快</string>
+
+</resources>

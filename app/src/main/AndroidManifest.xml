@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.columbia.jonathan.project_bestnote" >
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="edu.columbia.jonathan.project_bestnote.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ideaicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.columbia.jonathan.project_bestnote.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.columbia.jonathan.project_bestnote.NavDrawer"
+            android:label="@string/title_activity_main_page" >
+        </activity>
+        <activity
+            android:name="edu.columbia.jonathan.project_bestnote.TextNotes"
+            android:label="@string/title_activity_text_notes"
+            android:parentActivityName="edu.columbia.jonathan.project_bestnote.NavDrawer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.columbia.jonathan.project_bestnote.NavDrawer" />
+        </activity>
+        <activity
+            android:name="edu.columbia.jonathan.project_bestnote.EditCreate"
+            android:label="@string/title_activity_edit_create"
+            android:parentActivityName="edu.columbia.jonathan.project_bestnote.TextNotes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.columbia.jonathan.project_bestnote.TextNotes" />
+        </activity>
+        <activity
+            android:name="edu.columbia.jonathan.project_bestnote.PictureNote"
+            android:label="@string/title_activity_picture_note"
+            android:parentActivityName="edu.columbia.jonathan.project_bestnote.NavDrawer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.columbia.jonathan.project_bestnote.NavDrawer" />
+        </activity>
+        <activity
+            android:name="edu.columbia.jonathan.project_bestnote.NoteDetail"
+            android:label="@string/title_activity_note_detail"
+            android:parentActivityName="edu.columbia.jonathan.project_bestnote.TextNotes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.columbia.jonathan.project_bestnote.TextNotes" />
+        </activity>
+        <activity
+            android:name="edu.columbia.jonathan.project_bestnote.EditExisting"
+            android:label="@string/title_activity_edit_existing"
+            android:parentActivityName="edu.columbia.jonathan.project_bestnote.NoteDetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.columbia.jonathan.project_bestnote.NoteDetail" />
+        </activity>
+
+        <receiver android:name="edu.columbia.jonathan.project_bestnote.TimeZoneReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="edu.columbia.jonathan.project_bestnote.InAppShare"
+            android:label="@string/title_activity_in_app_share"
+            android:parentActivityName="edu.columbia.jonathan.project_bestnote.NoteDetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.columbia.jonathan.project_bestnote.NoteDetail" />
+        </activity>
+    </application>
+
+</manifest>
