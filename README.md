@@ -1,5 +1,18 @@
 # project-bestnote
+### Project Description:
 Final Project for Java OOP II course at Teachers College, Columbia University
+
+This app is a simple cloud-sync note-taking app. It uses Parse Android API to save user data.
+
+The picture notes are captured using the system camera app and are saved locally.
+
+### How to Use:
+Set up a project in Parse.com and paste your applicationId and clientId into:
+
+/app/src/main/java/edu/columbia/jonathan/project_bestnote/ **MyApplication**
+
+`Parse.initialize(this, "applicationId", "clientId");`
+
 
 ### Screenshots of the app:
 Log-In Page:
@@ -28,7 +41,7 @@ Create Notes Page:
 
 <img src="https://github.com/dashengz/project-bestnote/blob/master/screenshots/create-notes.png" width="200px" />
 
-Other Functionalities:
+Other Functionality:
 
 <img src="https://github.com/dashengz/project-bestnote/blob/master/screenshots/share.png" width="200px" />
 <img src="https://github.com/dashengz/project-bestnote/blob/master/screenshots/profile.png" width="200px" />
